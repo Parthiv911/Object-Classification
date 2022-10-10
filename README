@@ -1,1 +1,27 @@
+Object Classification
 
+The classifier takes a 32x32x3 pixel colour image as input and predicts what object it is from 10 given objects.
+
+The 10 classes are:
+1.airplane										
+2.automobile										
+3.bird										
+4.cat										
+5.deer										
+6.dog										
+7.frog										
+8.horse										
+9.ship										
+10.truck	
+
+A Convolutional Neural Network was used.
+
+The CIFAR-10 Data Set contained 50,000 training and 10,000 testing images was used to train the model.
+Link to data set: http://www.cs.toronto.edu/~kriz/cifar.html
+
+The resultant accuracy score was found to be 84.9%.
+
+---------------------------------------------------------------------------------------------------------------------
+
+-The source code of the project is the python file "code.py"
+-The Output of the python program is available in the file "output.txt"
